@@ -1,4 +1,4 @@
-package com.kauan.biblioteca.endereco;
+package com.kauan.medvoll.endereco;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;

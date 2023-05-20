@@ -1,4 +1,4 @@
-package com.kauan.biblioteca.usuario.cliente;
+package com.kauan.medvoll.usuario.cliente;
 
 public record ListagemDadosClientes(Long id, String nome, String email, String cpf) {
 

@@ -1,6 +1,6 @@
-package com.kauan.biblioteca.usuario.medico;
+package com.kauan.medvoll.usuario.medico;
 
-import com.kauan.biblioteca.endereco.DadosEndereco;
+import com.kauan.medvoll.endereco.DadosEndereco;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -25,6 +25,9 @@ public record DadosCadastroMedico(
 
         @NotBlank
         String telefone,
+
+        @NotNull
+        Boolean ativo,
 
         @NotNull
         Especialidade especialidade, //Não pode ser usado @NotBlank por ser um enum e não uma String

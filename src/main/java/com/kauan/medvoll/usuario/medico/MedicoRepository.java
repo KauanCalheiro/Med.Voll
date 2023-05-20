@@ -1,4 +1,4 @@
-package com.kauan.biblioteca.usuario.medico;
+package com.kauan.medvoll.usuario.medico;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

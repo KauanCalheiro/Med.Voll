@@ -1,4 +1,4 @@
-package com.kauan.biblioteca.usuario;
+package com.kauan.medvoll.usuario;
 
 
 public interface Usuario {

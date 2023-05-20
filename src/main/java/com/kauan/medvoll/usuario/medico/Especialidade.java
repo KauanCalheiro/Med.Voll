@@ -1,4 +1,4 @@
-package com.kauan.biblioteca.usuario.medico;
+package com.kauan.medvoll.usuario.medico;
 
 public enum Especialidade {
 

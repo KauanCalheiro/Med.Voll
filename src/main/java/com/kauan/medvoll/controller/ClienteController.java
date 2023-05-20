@@ -1,8 +1,8 @@
-package com.kauan.biblioteca.controller;
+package com.kauan.medvoll.controller;
 
 
-import com.kauan.biblioteca.usuario.DadosAtualizacao;
-import com.kauan.biblioteca.usuario.cliente.*;
+import com.kauan.medvoll.usuario.DadosAtualizacao;
+import com.kauan.medvoll.usuario.cliente.*;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

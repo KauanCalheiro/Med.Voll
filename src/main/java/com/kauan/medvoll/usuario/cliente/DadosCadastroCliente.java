@@ -1,7 +1,7 @@
-package com.kauan.biblioteca.usuario.cliente;
+package com.kauan.medvoll.usuario.cliente;
 
 
-import com.kauan.biblioteca.endereco.DadosEndereco;
+import com.kauan.medvoll.endereco.DadosEndereco;
 import jakarta.persistence.Embedded;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;

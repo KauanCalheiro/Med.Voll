@@ -1,4 +1,4 @@
-package com.kauan.biblioteca.endereco;
+package com.kauan.medvoll.endereco;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

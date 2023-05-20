@@ -1,8 +1,8 @@
-package com.kauan.biblioteca.usuario.medico;
+package com.kauan.medvoll.usuario.medico;
 
-import com.kauan.biblioteca.endereco.Endereco;
-import com.kauan.biblioteca.usuario.DadosAtualizacao;
-import com.kauan.biblioteca.usuario.Usuario;
+import com.kauan.medvoll.endereco.Endereco;
+import com.kauan.medvoll.usuario.DadosAtualizacao;
+import com.kauan.medvoll.usuario.Usuario;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -38,6 +38,7 @@ public class Medico implements Usuario {
         this.email = dadosCadastroMedico.email();
         this.crm = dadosCadastroMedico.crm();
         this.telefone = dadosCadastroMedico.telefone();
+        this.ativo = true;
         this.especialidade = dadosCadastroMedico.especialidade();
         this.endereco = new Endereco(dadosCadastroMedico.endereco());
     }

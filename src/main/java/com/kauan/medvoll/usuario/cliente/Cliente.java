@@ -1,8 +1,8 @@
-package com.kauan.biblioteca.usuario.cliente;
+package com.kauan.medvoll.usuario.cliente;
 
-import com.kauan.biblioteca.endereco.Endereco;
-import com.kauan.biblioteca.usuario.DadosAtualizacao;
-import com.kauan.biblioteca.usuario.Usuario;
+import com.kauan.medvoll.endereco.Endereco;
+import com.kauan.medvoll.usuario.DadosAtualizacao;
+import com.kauan.medvoll.usuario.Usuario;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

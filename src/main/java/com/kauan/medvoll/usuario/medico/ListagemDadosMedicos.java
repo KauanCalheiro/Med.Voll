@@ -1,4 +1,4 @@
-package com.kauan.biblioteca.usuario.medico;
+package com.kauan.medvoll.usuario.medico;
 
 public record ListagemDadosMedicos(Long id, String nome, String email, String crm, Especialidade especialidade) {
 

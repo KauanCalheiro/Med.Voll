@@ -1,6 +1,6 @@
-package com.kauan.biblioteca.usuario;
+package com.kauan.medvoll.usuario;
 
-import com.kauan.biblioteca.endereco.DadosEndereco;
+import com.kauan.medvoll.endereco.DadosEndereco;
 import jakarta.validation.constraints.NotNull;
 
 public record DadosAtualizacao(
